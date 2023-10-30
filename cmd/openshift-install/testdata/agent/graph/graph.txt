@@ -1,5 +1,0 @@
-# Verify the creation of the agent-based installer graph
-
-exec openshift-install agent graph --output-file $WORK/agent.dot
-
-exists $WORK/agent.dot
